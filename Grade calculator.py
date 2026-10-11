@@ -1,0 +1,19 @@
+sub1=int(input("Enter Subject1 Marks : "))
+sub2=int(input("Enter Subject2 Marks : "))
+sub3=int(input("Enter Subject3 Marks : "))
+sum=sub1+sub2+sub3
+marks=sum/3
+print("Marks=",marks)
+if marks>=90:
+    grade='A+'
+elif marks>=80:
+    grade='A'
+elif marks>=70:
+    grade='B'
+elif marks>=60:
+    grade='C'
+elif marks>=50:
+    grade='D'
+else:
+    grade='F'
+print("Grade =",grade) 
