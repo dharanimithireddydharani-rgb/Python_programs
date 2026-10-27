@@ -1,0 +1,6 @@
+text=input("Enter a string:")
+print("Uppercase:",text.upper())
+print("Lowercase:",text.lower())
+print("Titlecase:",text.title())
+print("Capitalize:",text.capitalize())
+print("Length:",len(text))
